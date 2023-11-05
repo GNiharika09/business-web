@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="styles.css">
+    <script src="app.js" async></script>
+    <title>E-commerce Website </title>
+</head>
+<body>
+              <section id="product1" class="section-p1">
+              <h2 style="font-size: 4rem; color: azure;">Preimum Collections</h2>
+  <p style="font-size: larger; color: azure;">Here are some of our premium collection of books. Buy them at 40% discount</p>
+  </section>
+    <section class="container">
+        <div class="container-items">
+            <div class="item">
+                <span class="title-item">Rich Dad and Poor Dad</span>
+                <img src="img/boxengasse.png" alt="" class="img-item"><br>
+                <span class="cost-item"> $16.000</span>
+                <button class="botton-item">Add to Cart</button>
+            </div>
+            <div class="item">
+                <span class="title-item">Strategize To Win</span>
+                <img src="img/englishrose.png" alt="" class="img-item">
+                <span class="cost-item"><br>$25.000</span>
+                <button class="botton-item">Add to Cart</button>
+            </div>
+            <div class="item">
+                <span class="title-item">The Work</span>
+                <img src="img/knocknap.png" alt="" class="img-item">
+                <span class="cost-item">$35.000</span>
+                <button class="botton-item">Add to Cart</button>
+            </div>
+            <div class="item">
+                <span class="title-item">Zero To One</span>
+                <img src="img/lanight.png" alt="" class="img-item">
+                <span class="cost-item"><br>$18.000</span>
+                <button class="botton-item">Add to Cart</button>
+            </div>
+            <div class="item">
+                <span class="title-item">Dear Female Founder</span><br>
+                <img src="img/silverall.png" alt="" class="img-item">
+                <span class="cost-item">$32.000</span>
+                <button class="botton-item">Add to Cart</button>
+            </div>
+            <div class="item">
+                <span class="title-item">The Minimalist Entrepreneur</span>
+                <img src="img/skinglam.png" alt="" class="img-item">
+                  <span class="cost-item"><br>$18.000</span>
+                <button class="botton-item">Add to Cart</button>
+            </div>
+            <div class="item">
+                <span class="title-item">The Founder's Dilemmas</span>
+                <img src="img/midimix.png" alt="" class="img-item">
+                <span class="cost-item">$54.000</span>
+                <button class="botton-item">Add to Cart</button>
+            </div>
+            <div class="item">
+                <span class="title-item">Anything You Want</span>
+                <img src="img/sirblue.png" alt="" class="img-item">
+                <span class="cost-item">$32.000</span>
+                <button class="botton-item">Add to Cart</button>
+            </div>
+            <div class="item">
+                <span class="title-item">Lost And FOunder</span>
+                <img src="img/middlesteel.png" alt="" class="img-item">
+                <span class="cost-item">$42.800</span>
+                <button class="botton-item">Add to Cart</button>
+            </div>
+        </div>
+        <div class="cart" id="cart">
+            <div class="header-cart">
+                <h2>The Cart</h2>
+            </div>
+
+            <div class="cart-items">
+               
+                <div class="cart-item">
+                    <img src="img/boxengasse.png" width="80px" alt="">
+                    <div class="cart-item-details">
+                        <span class="cart-item-title">Rich Dad Poor Dad</span>
+                        <div class="selector-amount">
+                            <i class="fa-solid fa-minus restar-amount"></i>
+                            <input type="text" value="1" class="cart-item-amount" disabled>
+                            <i class="fa-solid fa-plus sumar-amount"></i>
+                        </div>
+                        <span class="cart-item-cost">$15.000,00</span>
+                    </div>
+                   <span class="btn-eliminate">
+                        <i class="fa-solid fa-trash"></i>
+                   </span>
+                </div>
+                <div class="cart-item">
+                    <img src="img/skinglam.png" width="80px" alt="">
+                    <div class="cart-item-details">
+                        <span class="cart-item-title">The Minimalist Entrepreneur</span>
+                        <div class="selector-amount">
+                            <i class="fa-solid fa-minus restar-amount"></i>
+                            <input type="text" value="3" class="cart-item-amount" disabled>
+                            <i class="fa-solid fa-plus sumar-amount"></i>
+                        </div>
+                        <span class="cart-item-cost">$18.000,00</span>
+                    </div>
+                   <button class="btn-eliminate">
+                        <i class="fa-solid fa-trash"></i>
+                   </button>
+                </div>
+                 
+            </div>
+            <div class="cart-total">
+                <div class="fila">
+                    <strong>Total</strong>
+                    <span class="cart-cost-total">
+                        $120.000,00
+                    </span>
+                </div>
+                <button class="btn-pay">Confirm Order <i class="fa-solid fa-bag-shopping"></i> </button>
+            </div>
+        </div>
+    </section>
+
+        <!---- footer section start -->
+        <section class="footer">
+            <div class="content">
+                <img src="./images/logo/invert-logo.webp" alt="">
+                <div class="col-9">
+                    <span>follow my blog</span>
+                    <div class="inputBox">
+                        <input type="email" placeholder="Enter your email">
+                        <button>Subscribe</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-10">
+                <span>&copy; 2023 Free B. All Rights Reserved</span>
+                <div class="social">
+                    <i class='bx bxl-facebook' ></i>
+                    <i class='bx bxl-twitter' ></i>
+                    <i class='bx bxl-instagram' ></i>
+                    <i class='bx bxl-youtube' ></i>
+                    <i class='bx bxl-tiktok' ></i>
+                </div>
+            </div>
+        </section>
+      
+    <script src="JS/script.js"></script>
+    <script src="shopping-cart.js"></script>
+</body>
+</html>
